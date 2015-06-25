@@ -1,0 +1,23 @@
+{
+  "name": "hack-starter-lib",
+  "version": "1.0.0",
+  "description": "Jquery, Handlebar, Requirejs, SCSS, Bootstrap, SocketIO starter lib to start hacking and making fun apps",
+  "main": "src/requireconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanyamagrawal/hack-starter-lib.git"
+  },
+  "author": "Sanyam Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanyamagrawal/hack-starter-lib/issues"
+  },
+  "homepage": "https://github.com/sanyamagrawal/hack-starter-lib",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "grunt": "^0.4.5"
+  }
+}
