@@ -1,0 +1,26 @@
+{
+  "name": "hack-starter-lib",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sanyamagrawal/hack-starter-lib",
+  "authors": [
+    "SANYAM AGRAWAL <sanyam4u@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.18",
+    "requirejs-text": "~2.0.14",
+    "handlebars": "~3.0.3",
+    "bootstrap": "~3.3.5",
+    "underscore-amd": "~1.5.2",
+    "moment": "~2.10.3"
+  }
+}
