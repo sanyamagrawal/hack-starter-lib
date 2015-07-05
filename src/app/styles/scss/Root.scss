@@ -1,0 +1,162 @@
+@import "compass/css3";
+@import "variables";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    @include box-sizing(border-box);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -o-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+    font-smooth: always;
+    font-size: 62.5%;
+}
+
+//For Internet Explorer 10
+::-ms-clear {
+    display: none;
+}
+
+//To Remove the Dotted Lines that comes around button and input text in Firefox
+::-moz-focus-inner {
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font-size: $fontSize;
+
+    .stretch {
+        width: 100%;
+        height: 100%;
+    }
+    .width100Percent {
+        width: 100%;
+    }
+    .height100Percent {
+        height: 100%;
+    }
+    .nowrap {
+        white-space: nowrap;
+    }
+    .upperCase {
+        text-transform: uppercase;
+    }
+    .capitalize {
+        text-transform: capitalize;
+    }
+    .lowerCase {
+        text-transform: lowercase;
+    }
+    .table {
+        display: table;
+        table-layout: fixed;
+        @include box-sizing(border-box);
+        margin: 0;
+    }
+    .tableCell {
+        display: table-cell;
+        vertical-align: top;
+    }
+    .tableRow {
+        display: table-row;
+        vertical-align: top;
+    }
+    .rightAligned {
+        text-align: right;
+    }
+    .leftAligned {
+        text-align: left;
+    }
+    .centerAligned {
+        text-align: center;
+    }
+    .justifyAligned {
+        text-align: justify;
+    }
+    .inlineBlock {
+        display: inline-block;
+    }
+    .inline {
+        display: inline;
+    }
+    .block {
+        display: block;
+    }
+    .breakDiv {
+        clear: both;
+    }
+    .clearfix {
+        display: block;
+        &:after {
+            content: "\0020";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+            overflow: hidden;
+        }
+    }
+    .floatRight {
+        float: right;
+    }
+    .floatLeft {
+        float: left;
+    }
+    .disabled {
+        color: #aaa;
+    }
+    .hide {
+        display: none;
+    }
+    .relative {
+        position: relative;
+    }
+    .absolute {
+        position: absolute;
+    }
+    .fixed {
+        position: fixed;
+    }
+    .topAlign {
+        vertical-align: top;
+    }
+    .middleAlign {
+        vertical-align: middle;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .outlineNone {
+        outline: none;
+    }
+    .stretch-half {
+        width: 50%;
+        height: 100%;
+    }
+    .ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .caption {
+        color: #767676;
+        font-size: $fontSizeMinus2;
+        margin-top: 5px;
+    }
+    .scroller {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    .breakDiv {
+        height: 10px;
+    }
+}
